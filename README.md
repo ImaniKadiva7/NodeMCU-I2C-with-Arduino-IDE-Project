@@ -41,5 +41,18 @@ In summary, This project shows how the Arduino uno and the ESP8266 or nodeMCU co
 1. The nodeMCU as a master sends a "hello Arduino" string to the Arduino and the Arduino uno as a slave 
 responds with the acknowledgement text of "hello nodeMCU".
 
+Consider the image below.
+
+![image](https://user-images.githubusercontent.com/105231479/226425984-779aa73b-ebf1-4349-bedb-f6a6e646a1b7.png)
+
+The image above shows how the nodeMCU joins the I2C bus with the serial data connected at pin D1 and serial clock connected at D2 pins.
+
+Transmission begins with the device address 8. The master sends "hello Arduino" string to the slave and then stops the transmission.
+
+The nodeMCU then requests data of size 13 from the slave adress 8. While the data is available, read the data and store it in the character "c", then print the data on the serial monitor.
+
+The sketch below shows how the slave sends, checks for received and requests data from the master.
+
+![image](https://user-images.githubusercontent.com/105231479/226431942-dd55fe67-5573-473f-b0b9-f9a63e9b18bd.png)
 
 
