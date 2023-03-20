@@ -55,4 +55,5 @@ The sketch below shows how the slave sends, checks for received and requests dat
 
 ![image](https://user-images.githubusercontent.com/105231479/226431942-dd55fe67-5573-473f-b0b9-f9a63e9b18bd.png)
 
+![image](https://user-images.githubusercontent.com/105231479/226450057-d6926e27-b4c5-4686-ba63-ddac126798d7.png)
 
