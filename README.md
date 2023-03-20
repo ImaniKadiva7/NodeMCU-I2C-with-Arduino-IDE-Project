@@ -23,9 +23,9 @@ from receiver after transmitting data to check whether data is successfully rece
 
 The Inter-Integrated Circuit communication protocol works in 2 modes,
 
-a. Master mode.
+  a. Master mode.
 
-b. Slave mode.
+  b. Slave mode.
 
 The Serial data wire is used for exchange of data between the master and Slave. The serial clock wire is used 
 for synchronous clock in between the slave and master devices.
