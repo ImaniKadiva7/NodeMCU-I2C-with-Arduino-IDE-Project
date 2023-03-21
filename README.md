@@ -1,6 +1,10 @@
 # NodeMCU-I2C-with-Arduino-IDE-Project
 The reference to this project can be found in the link https://www.electronicwings.com/nodemcu/nodemcu-i2c-with-arduino-ide.
 
+The purpose of this project is to demonstrate my experience in,
+  - Controlling and running multiple processes on multiple micro-controllers
+  - Controlling access of multiple micro-controllers to a shared I2C bus.
+
 In this project, I have built a prototype of two different micro-controllers.
 
 Consider the image below,
